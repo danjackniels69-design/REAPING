@@ -18,7 +18,8 @@ The split is set once and then locked on-chain — no one, including the creator
 
 - When the tickets wallet accumulates enough SOL for a ticket (threshold: $25 — one AMC ticket, proposed), an AMC Theatres gift card is bought with SOL via Coinsbee.
 - AMC gift cards are US-only, so winners need to be able to use AMC in the United States.
-- A winner is picked at random from a snapshot of $REAPING holders (minimum holding and snapshot timing proposed, not yet final).
+- A winner is picked at random from a snapshot of $REAPING holders, taken at a random, unannounced time so nobody can buy in just before the draw. To be eligible you must hold at least **$20 of $REAPING** at snapshot time. The snapshot excludes the bonding curve and pool accounts, the burn wallet and the creator wallet.
+- **Larger holders (proposed, not yet final):** entries scale with holdings — **1 entry per $20 held, capped at 10 entries per wallet**. So $20 gets 1 entry, $100 gets 5, $200 or more gets 10. Bigger holders get better odds, but nobody can buy the whole draw.
 - The code is delivered privately (X DM), and a dust SOL transfer with a memo is sent to the winner's wallet as public proof the ticket was given out. The transaction is posted so anyone can verify it on Solscan.
 - More trading = more tickets given out.
 
