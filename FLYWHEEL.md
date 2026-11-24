@@ -16,6 +16,8 @@ Every $REAPING trade pays a 0.30% creator fee into a creator vault. That fee is 
 
 The split is set once and then locked on-chain — no one, including the creator, can change it after setup. Anyone can read the config and verify the percentages.
 
+**Status: live and locked since November 24, 2026.** SharingConfig PDA `7q5Wd7NFkNCjh7kqbTG31B6CW9CMomp2fRejf2z9YMQ4` — verified on-chain: shareholders exactly 5000 / 2500 / 2500 bps, admin revoked, not editable.
+
 ## Movie tickets (50%)
 
 - When the tickets wallet accumulates enough SOL for a ticket (threshold: $25 — one AMC ticket, proposed), an AMC Theatres gift card is bought via Bitrefill (SOL is swapped to USDC first, since Bitrefill does not take SOL).
