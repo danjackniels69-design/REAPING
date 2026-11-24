@@ -12,5 +12,7 @@ Full detail, wallet addresses, and how to verify it all on-chain: [FLYWHEEL.md](
 
 ## Links
 
-- pump.fun: *coin link added at launch*
+- pump.fun: https://pump.fun/coin/DEk7Pr43U8smfvfreXnXMcDDUow84qWsX2qQdBfMpump
+- Mint / CA: `DEk7Pr43U8smfvfreXnXMcDDUow84qWsX2qQdBfMpump`
+- Launched: November 24, 2026 — initial buy 0.1 SOL
 - Movie: *The Hunger Games: Sunrise on the Reaping* (2026)
