@@ -2,6 +2,8 @@
 
 How creator rewards become movie tickets and burns. Everything below is verifiable on-chain.
 
+Coin: [Sunrise on the Reaping on pump.fun](https://pump.fun/coin/DEk7Pr43U8smfvfreXnXMcDDUow84qWsX2qQdBfMpump) — mint `DEk7Pr43U8smfvfreXnXMcDDUow84qWsX2qQdBfMpump`, launched November 24, 2026.
+
 ## The split
 
 Every $REAPING trade pays a 0.30% creator fee into a creator vault. That fee is split three ways by an on-chain SharingConfig:
@@ -16,7 +18,7 @@ The split is set once and then locked on-chain — no one, including the creator
 
 ## Movie tickets (50%)
 
-- When the tickets wallet accumulates enough SOL for a ticket (threshold: $25 — one AMC ticket, proposed), an AMC Theatres gift card is bought with SOL via Coinsbee.
+- When the tickets wallet accumulates enough SOL for a ticket (threshold: $25 — one AMC ticket, proposed), an AMC Theatres gift card is bought via Bitrefill (SOL is swapped to USDC first, since Bitrefill does not take SOL).
 - AMC gift cards are US-only, so winners need to be able to use AMC in the United States.
 - A winner is picked at random from a snapshot of $REAPING holders, taken at a random, unannounced time so nobody can buy in just before the draw. To be eligible you must hold at least **$20 of $REAPING** at snapshot time. The snapshot excludes the bonding curve and pool accounts, the burn wallet and the creator wallet.
 - **Larger holders:** entries follow a curve, not a straight line — **every doubling of your holdings adds one entry, with no cap**. $20 gets 1 entry, $40 gets 2, $80 gets 3, $160 gets 4, $320 gets 5, and so on. So a $100 holder gets 3 entries and a $200 holder gets 4, and holding more always earns more entries — each extra one just costs double the last. Bigger holders get better odds, but the curve flattens fast so nobody can buy the whole draw.
